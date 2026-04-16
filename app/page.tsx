@@ -1084,7 +1084,7 @@ https://wa.me/2${formData.whatsapp}`
           </p>
         </div>
 
-        {/* Vodafone Section */}
+  {/* Vodafone Section */}
         <div style={{ display: "flex", justifyContent: "center", alignItems: "center", marginTop: "60px", marginBottom: "20px" }}>
           <div
             style={{
@@ -1150,7 +1150,7 @@ https://wa.me/2${formData.whatsapp}`
         </div>
 
         {/* Vodafone Cards */}
-        <div className="grid" style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "15px", marginBottom: "20px" }}>
+        <div className="grid" style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))", gap: "12px", marginBottom: "20px" }}>
           {[
             { gb: 20, price: 300, id: "Voda_20GB_300" },
             { gb: 25, price: 340, id: "Voda_25GB_340" },
@@ -1166,7 +1166,7 @@ https://wa.me/2${formData.whatsapp}`
                 background: "#0d0d0d",
                 border: "1px solid rgba(249, 226, 157, 0.2)",
                 borderRadius: "15px",
-                padding: "20px",
+                padding: "15px",
                 transition: "all 0.4s ease",
                 display: "flex",
                 flexDirection: "column",
@@ -1175,24 +1175,24 @@ https://wa.me/2${formData.whatsapp}`
                 overflow: "hidden",
               }}
             >
-              <h3 style={{ color: "#fff", fontSize: "1.3rem", margin: "0 0 10px 0" }}>{pkg.gb} جيجا 🔴</h3>
-              <div className="price" style={{ fontSize: "2.8rem", fontWeight: 900, color: "#f9e29d", margin: "10px 0" }}>
-                {pkg.price}<span style={{ fontSize: "1rem", color: "#fff" }}>ج.م</span>
+              <h3 style={{ color: "#fff" }}>{pkg.gb} جيجا 🔴</h3>
+              <div className="price" style={{ fontSize: "2.2rem", fontWeight: 900, color: "#f9e29d", margin: "5px 0" }}>
+                {pkg.price}<span style={{ fontSize: "0.9rem", color: "#fff" }}>ج.م</span>
               </div>
               <div
                 className="details"
                 style={{
                   background: "rgba(255,255,255,0.03)",
                   borderRadius: "10px",
-                  padding: "15px",
-                  marginBottom: "15px",
-                  fontSize: "0.95rem",
-                  lineHeight: 1.7,
+                  padding: "10px",
+                  marginBottom: "12px",
+                  fontSize: "0.8rem",
+                  lineHeight: 1.5,
                   color: "#ccc",
                 }}
               >
                 <div>⭐ 1500 دقيقة</div>
-                <div style={{ marginTop: "8px" }}>✉️ 50 رسالة نصية</div>
+                <div style={{ marginTop: "5px" }}>✉️ 50 رسالة نصية</div>
               </div>
               <button
                 onClick={() => openMoFinal(pkg.id)}
@@ -1201,10 +1201,10 @@ https://wa.me/2${formData.whatsapp}`
                   background: "linear-gradient(135deg, #f9e29d, #d4af37)",
                   color: "#000",
                   textDecoration: "none",
-                  padding: "15px",
+                  padding: "12px",
                   borderRadius: "10px",
                   fontWeight: 900,
-                  fontSize: "1rem",
+                  fontSize: "0.9rem",
                   transition: "0.3s",
                   border: "none",
                   cursor: "pointer",
